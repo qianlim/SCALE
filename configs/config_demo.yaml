@@ -1,0 +1,6 @@
+name: SCALE_demo_00000_simuskirt
+dataroot: 00000_simuskirt
+data_spacing: 1
+npoints: 16
+save_all_results: 1
+mode: test

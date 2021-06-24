@@ -1,0 +1,8 @@
+name: SCALE_train_demo_00000_simuskirt
+data_root: 00000_simuskirt
+data_spacing: 1
+val_every: 10
+npoints: 16 # make sure it's a square number. Otherwise the code will use the nearest (smaller) square number for it.
+pos_encoding: 0
+save_all_results: 1
+mode: train
