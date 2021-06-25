@@ -1,6 +1,8 @@
 # SCALE: Modeling Clothed Humans with a Surface Codec of Articulated Local Elements (CVPR 2021)
 
 [![Paper](https://img.shields.io/badge/arXiv-Paper-b31b1b.svg)](https://arxiv.org/abs/2104.07660)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1lp6r-A-s1kBorIvg6rLD4Ja3o6JOvu3G?usp=sharing)
+
 
 This repository contains the official PyTorch implementation of the CVPR 2021 paper:
 
