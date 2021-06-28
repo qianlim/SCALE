@@ -7,7 +7,7 @@
 This repository contains the official PyTorch implementation of the CVPR 2021 paper:
 
 **SCALE: Modeling Clothed Humans with a Surface Codec of Articulated Local Elements** <br>
-Qianli Ma, Shunsuke Saito, Jinlong Yang, Siyu Tang, and Michael. J. Black <br>
+Qianli Ma, Shunsuke Saito, Jinlong Yang, Siyu Tang, and Michael J. Black <br>
 [Full paper](https://arxiv.org/pdf/2104.07660) | [Video](https://youtu.be/-EvWqFCUb7U) | [Project website](https://qianlim.github.io/SCALE.html) | [Poster](https://ps.is.tuebingen.mpg.de/uploads_file/attachment/attachment/650/SCALE_poster_CVPR_final_compressed.pdf)
 
 ![](teasers/teaser.gif)
@@ -83,6 +83,19 @@ Software Copyright License for non-commercial scientific research purposes. Plea
 
 The SMPL body related files (including `assets/{smpl_faces.npy, template_mesh_uv.obj}` and the UV masks under `assets/uv_masks/`) are subject to the license of the [SMPL model](https://smpl.is.tue.mpg.de/). The provided demo data (including the body pose and the meshes of clothed human bodies) are subject to the license of the [CAPE Dataset](https://cape.is.tue.mpg.de/). The Chamfer Distance implementation is subject to its [original license](./chamferdist/LICENSE).
 
+## Related Research
+[SCANimate: Weakly Supervised Learning of Skinned Clothed Avatar Networks (CVPR 2021)](https://scanimate.is.tue.mpg.de/)<br>
+*Shunsuke Saito, Jinlong Yang, Qianli Ma, Michael J. Black*
+
+Our *implicit* solution to pose-dependent shape modeling: cycle-consistent implicit skinning fields + locally pose-aware implicit function = a fully animatable avatar with implicit surface from raw scans without surface registration!
+
+[Learning to Dress 3D People in Generative Clothing (CVPR 2020)](https://cape.is.tue.mpg.de/)<br>
+*Qianli Ma, Jinlong Yang, Anurag Ranjan, Sergi Pujades, Gerard Pons-Moll, Siyu Tang, Michael J. Black*
+
+CAPE --- a generative model and a large-scale dataset for 3D clothed human meshes in varied poses and garment types. 
+We trained SCALE using the [CAPE dataset](https://cape.is.tue.mpg.de/dataset), check it out!
+
+
 ## Citations
 
 ```bibtex
@@ -95,3 +108,4 @@ The SMPL body related files (including `assets/{smpl_faces.npy, template_mesh_uv
   month_numeric = {6}
 }
 ```
+
