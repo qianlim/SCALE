@@ -14,7 +14,7 @@ Qianli Ma, Shunsuke Saito, Jinlong Yang, Siyu Tang, and Michael J. Black <br>
 
 
 ## Installation
-- The code has been tested on Ubuntu 18.04, python 3.6 and CUDA 10.0.
+- The code has been tested with python 3.6 on both (Ubuntu 18.04 + CUDA 10.0) and (Ubuntu 20.04 + CUDA 11.1).
 
 - First, in the folder of this SCALE repository, run the following commands to create a new virtual environment and install dependencies:
 
