@@ -36,6 +36,8 @@ Qianli Ma, Shunsuke Saito, Jinlong Yang, Siyu Tang, and Michael J. Black <br>
 
 - You are now good to go with the next steps! All the commands below are assumed to be run from the `SCALE` repository folder, within the virtual environment created above. 
 
+
+
 ## Run SCALE
 
 - Download our [pre-trained model weights](https://owncloud.tuebingen.mpg.de/index.php/s/pMYCtcpMDjk34Zw), unzip it under the `checkpoints` folder, such that the checkpoints' path is `<SCALE repo folder>/checkpoints/SCALE_demo_00000_simuskirt/<checkpoint files>`.
@@ -55,6 +57,8 @@ Qianli Ma, Shunsuke Saito, Jinlong Yang, Siyu Tang, and Michael J. Black <br>
   ```
 
   The images (with both the point normal coloring and patch coloring) will be saved under `results/rendered_imgs/SCALE_demo_00000_simuskirt`. 
+  
+  
 
 ## Train SCALE
 
@@ -77,11 +81,22 @@ Qianli Ma, Shunsuke Saito, Jinlong Yang, Siyu Tang, and Michael J. Black <br>
 
 We provide example codes in `lib_data/` to assist you in adapting your own data to the format required by SCALE. Please refer to [`lib_data/README`](./lib_data/README.md) for more details.
 
+
+
+## News
+
+- [2021/10/29] **We now provide the packed, SCALE-compatible CAPE data on the [CAPE dataset website](https://cape.is.tue.mpg.de/download.php).** Simply register as a user there to access the download links (at the bottom of the Download page).
+- [2021/06/24] Code online!
+
+
+
 ## License
 
 Software Copyright License for non-commercial scientific research purposes. Please read carefully the [terms and conditions](./LICENSE) and any accompanying documentation before you download and/or use the SCALE code, including the scripts, animation demos and pre-trained models. By downloading and/or using the Model & Software (including downloading, cloning, installing, and any other use of this GitHub repository), you acknowledge that you have read these terms and conditions, understand them, and agree to be bound by them. If you do not agree with these terms and conditions, you must not download and/or use the Model & Software. Any infringement of the terms of this agreement will automatically terminate your rights under this [License](./LICENSE).
 
 The SMPL body related files (including `assets/{smpl_faces.npy, template_mesh_uv.obj}` and the UV masks under `assets/uv_masks/`) are subject to the license of the [SMPL model](https://smpl.is.tue.mpg.de/). The provided demo data (including the body pose and the meshes of clothed human bodies) are subject to the license of the [CAPE Dataset](https://cape.is.tue.mpg.de/). The Chamfer Distance implementation is subject to its [original license](./chamferdist/LICENSE).
+
+
 
 ## Related Research
 [SCANimate: Weakly Supervised Learning of Skinned Clothed Avatar Networks (CVPR 2021)](https://scanimate.is.tue.mpg.de/)<br>
@@ -94,6 +109,8 @@ Our *implicit* solution to pose-dependent shape modeling: cycle-consistent impli
 
 CAPE --- a generative model and a large-scale dataset for 3D clothed human meshes in varied poses and garment types. 
 We trained SCALE using the [CAPE dataset](https://cape.is.tue.mpg.de/dataset), check it out!
+
+
 
 
 ## Citations
